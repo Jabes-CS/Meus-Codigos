@@ -12,4 +12,3 @@ elif chute_usuario == Chute3:
     print("Você acertou o terceiro chute!!!")
 else:
     print("Você não acertou nenhum chute :(")
-    
