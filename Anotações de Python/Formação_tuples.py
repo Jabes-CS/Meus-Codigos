@@ -6,4 +6,3 @@ Pessoa3 = ("Gabriel", 21)
 instrutores = [Pessoa1, Pessoa2, Pessoa3]
 #Quando: 
 print(instrutores) #Recebemos 
-[('Nico', 39), ('Flavio', 37), ('Marcos', 30)]
