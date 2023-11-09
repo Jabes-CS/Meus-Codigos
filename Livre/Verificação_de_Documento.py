@@ -12,7 +12,7 @@ dados_pessoais = {
 # Definir expressões regulares para validar os campos
 regex_rg = r'^\d{1,2}\.\d{3}\.\d{3}-\d{1}$'
 regex_cpf = r'^\d{3}\.\d{3}\.\d{3}-\d{2}$'
-regex_email = r'^\w+@[a-zA-Z_]+?\.[a-zA-Z]{2,3}$'
+regex_email = r'^[\w\W]+@[a-zA-Z_]+?\.[a-zA-Z]{2,3}$'
 
 # Solicitar ao usuário as informações e validar os campos
 while not dados_pessoais['nome']:
